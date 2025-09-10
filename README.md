@@ -129,10 +129,11 @@ If geolocation lookup fails, the tool will continue with "Unknown" location data
 If Ollama is not installed or the model is unavailable, LinkSnitch will use fallback scoring logic and throws out a python error message in the output
 
 # If symlink doesn't work:
+```
 sudo ln -sf $(pwd)/linksnitch.py /usr/local/bin/linksnitch
 ```
 
-## Disclaimer!
+### Disclaimer!
 LinkSnitch is just an OSINT informative tool designed for security analysis and educational purposes by a cybersecurity enthusiast and student. It does NOT prevent you from accessing a malicious link in any way. Always exercise caution when visiting unknown websites, regardless of the analysis results.
 
 ## Contributing
